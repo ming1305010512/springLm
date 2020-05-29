@@ -2,10 +2,11 @@ package com.alsa.springcore.service.impl;
 
 import com.alsa.springcore.mapper.SysUserMapper;
 import com.alsa.springcore.service.ISysUserService;
-import com.hand.hap.account.dto.User;
+import com.alsa.springcore.dto.User ;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Created with IDEA
@@ -14,12 +15,13 @@ import java.util.List;
  * @Time:21:50
  */
 public class SysUserServiceImpl implements ISysUserService {
+    @Autowired
     private SysUserMapper sysUserMapper;
     public List<User> getUsers(String name) {
         User user = new User();
         user.setUserName(name);
-        List<User> users = sysUserMapper.selectUser(user);
-        return users;
+        List<User> mapList = sysUserMapper.selectUser(user);
+        return mapList;
     }
 
     public SysUserMapper getSysUserMapper() {

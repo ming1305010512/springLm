@@ -4,8 +4,6 @@
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans
  https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="sysUserService" class="com.alsa.springcore.service.impl.SysUserServiceImpl">
-		<property name="sysUserMapper" ref="sysUserMapper"></property>
-	</bean>
-	<bean id="sysUserMapper" class="com.alsa.springcore.mapper.impl.SysUserMapperFactory" factory-method="createSysUserMapper"></bean>
+
+<!--	<bean id="sysUserMapper" class="com.alsa.springcore.mapper.impl.SysUserMapperFactory" factory-method="createSysUserMapper"></bean>-->
 </beans>

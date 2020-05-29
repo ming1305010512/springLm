@@ -2,7 +2,7 @@ package com.alsa.springcore;
 
 import com.alsa.springcore.mapper.SysUserMapper;
 import com.alsa.springcore.service.ISysUserService;
-import com.hand.hap.account.dto.User;
+import com.alsa.springcore.dto.User ;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -15,6 +15,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Created with IDEA

@@ -1,6 +1,7 @@
 package com.alsa.springcore.mapper;
 
-import com.hand.hap.account.dto.User;
+import com.alsa.springcore.dto.User ;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * @Time: 17:07
  * @Description:
  */
+@Repository
 public interface SysUserMapper {
 	List<User> selectUser(User user);
 }

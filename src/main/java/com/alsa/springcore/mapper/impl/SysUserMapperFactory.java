@@ -1,7 +1,6 @@
 package com.alsa.springcore.mapper.impl;
 
 import com.alsa.springcore.mapper.SysUserMapper;
-import com.hand.hap.account.dto.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
