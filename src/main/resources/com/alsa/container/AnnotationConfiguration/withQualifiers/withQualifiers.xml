@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    <bean class="com.alsa.container.AnnotationConfiguration.withQualifiers.MovieCatalog">
+        <qualifier value="main"></qualifier>
+        <property name="catalogName" value="主要推荐目录"></property>
+    </bean>
+    <bean class="com.alsa.container.AnnotationConfiguration.withQualifiers.MovieCatalog">
+        <qualifier value="action"></qualifier>
+        <property name="catalogName" value="动作片"></property>
+    </bean>
+
+    <bean id="movieRecommender" class="com.alsa.container.AnnotationConfiguration.withQualifiers.MovieRecommender"></bean>
+
+    <bean class="com.alsa.container.AnnotationConfiguration.withQualifiers.MovieCatalog">
+        <qualifier type="com.alsa.container.AnnotationConfiguration.withQualifiers.Genre" value="Action"></qualifier>
+        <property name="catalogName" value="动作片2"></property>
+    </bean>
+
+    <bean class="com.alsa.container.AnnotationConfiguration.withQualifiers.MovieCatalog">
+        <qualifier type="Genre" value="Comedy"></qualifier>
+        <property name="catalogName" value="喜剧片"></property>
+    </bean>
+
+    <bean id="movieRecommender2" class="com.alsa.container.AnnotationConfiguration.withQualifiers.MovieRecommender2"></bean>
+
+
+</beans>

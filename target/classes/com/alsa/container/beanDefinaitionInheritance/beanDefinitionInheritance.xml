@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--	<bean id="sysUserMapper" class="com.alsa.springcore.mapper.impl.SysUserMapperFactory" factory-method="createSysUserMapper"></bean>-->
+    <bean id="parentBean" class="com.alsa.container.beanDefinitionInheritance.ParentBean" abstract="true">
+        <property name="name" value="parent"></property>
+        <property name="age" value="12"></property>
+    </bean>
+    <bean id="childBean" class="com.alsa.container.beanDefinitionInheritance.ChildBean" parent="parentBean">
+        <property name="name" value="override"/>
+    </bean>
+</beans>

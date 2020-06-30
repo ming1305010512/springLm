@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="myCommand" class="com.alsa.container.dependencies.methodInjection.AsyncCommand" scope="prototype"></bean>
+
+    <bean id="commandManager" class="com.alsa.container.dependencies.methodInjection.CommandManager">
+        <lookup-method name="createCommand" bean="myCommand"></lookup-method>
+    </bean>
+
+    <bean id="commandManager2" class="com.alsa.container.dependencies.methodInjection.CommandManager2">
+        <property name="command" ref="myCommand"></property>
+    </bean>
+</beans>
