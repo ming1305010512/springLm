@@ -2,125 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c39678-f703-4ff0-a1d0-4a812f8b2be1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/introductions/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/introductions/DefaultUsageTracked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/introductions/IMyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/introductions/MyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/introductions/UsageTracked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/introductions/UsageTracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/proxyingMechanisms/Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/AOP/aspectjSupport/proxyingMechanisms/SimplePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/usingAutowired/MovieCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/usingAutowired/MovieFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/usingAutowired/MovieRecommender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/usingAutowired/MovieRecommenderWithConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/usingAutowired/SimpleMovieLister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/usingValueAnnotation/MovieRecommender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/usingValueAnnotation/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withGenericQualifiers/IntegerStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withGenericQualifiers/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withGenericQualifiers/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withGenericQualifiers/StringStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withQualifiers/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withQualifiers/MovieCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withQualifiers/MovieRecommender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/AnnotationConfiguration/withQualifiers/MovieRecommender2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/i18UsingMessageSource/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/BlackListEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/BlackListNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/UsingAnnotation/BlackListNotifier2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/UsingAnnotation/BlackListNotifier3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/beanDefinitionInheritance/ChildBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/beanDefinitionInheritance/ParentBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/beanScope/CustomerScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/classpathScanningAndManagedComponents/DefiningBeanMetadataWithinComponents/FactoryMethodComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/classpathScanningAndManagedComponents/DefiningBeanMetadataWithinComponents/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/classpathScanningAndManagedComponents/DefiningBeanMetadataWithinComponents/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/containerExtensionPoint/customizingBeans/InstantiationTracingBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/customerNatureOfBean/LifeCycleCallbacks/InitializationCallbacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/dependencies/methodInjection/AsyncCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/dependencies/methodInjection/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/dependencies/methodInjection/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/dependencies/methodInjection/CommandManager2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/useProfile/DevelopmentConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/useProfile/ProductionConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/useProfile/ProfileEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/usePropertySource/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/usePropertySource/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/javaBasedContainerConfiguration/composingConfigurations/usingInportAnnotation/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/javaBasedContainerConfiguration/composingConfigurations/usingInportAnnotation/TransferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/javaBasedContainerConfiguration/composingConfigurations/usingInportAnnotation/TransferServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/javaBasedContainerConfiguration/composingConfigurations/usingInportAnnotation/config/DefaultRepositoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/javaBasedContainerConfiguration/composingConfigurations/usingInportAnnotation/config/RepositoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/javaBasedContainerConfiguration/composingConfigurations/usingInportAnnotation/config/ServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/container/javaBasedContainerConfiguration/composingConfigurations/usingInportAnnotation/config/SystemTestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/registeringCustomPropertyEditorImplementations/DependsOnExoticType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/registeringCustomPropertyEditorImplementations/ExoticType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/registeringCustomPropertyEditorImplementations/ExoticTypeEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/registeringCustomPropertyEditorImplementations/usingPropertyEditorRegistrar/CustomPropertyEditorRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/settingAndGettingBasicAndNestedProperties/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/settingAndGettingBasicAndNestedProperties/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/MyConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/MyConstraintValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/PersonForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/test/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/test/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/springTypeConversion/MyCustomConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/validationUsingValidatorInterface/MyErrors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/validationUsingValidatorInterface/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/validationUsingValidatorInterface/PersonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/validationUsingValidatorInterface/richObject/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/validationUsingValidatorInterface/richObject/AddressValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/validationUsingValidatorInterface/richObject/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/validationUsingValidatorInterface/richObject/CustomerValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/AnnotationConfiguration/usingAutowired/usingAutowired.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/AnnotationConfiguration/usingValueAnnotation/properties/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/AnnotationConfiguration/usingValueAnnotation/usingValueAnnotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/AnnotationConfiguration/withGenericQualifiers/withGenericQualifiers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/AnnotationConfiguration/withQualifiers/withQualifiers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/additionalCapabilityOfApplicationContext/i18UsingMessageSource/i18UsingMessageSource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/additionalCapabilityOfApplicationContext/i18UsingMessageSource/i18n/exceptions.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/additionalCapabilityOfApplicationContext/i18UsingMessageSource/i18n/exceptions_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/additionalCapabilityOfApplicationContext/i18UsingMessageSource/i18n/format.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/standardAndCustomerEvent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/beanDefinaitionInheritance/beanDefinitionInheritance.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/containerExtensionPoint/containerExtensionPoint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/dependencies/methodInjection/methodInjection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/app.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/registeringCustomPropertyEditorImplementations/registeringCustomPropertyEditorImplements.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/validationAndDataBindingAndTypeConversion/BeanManipulationAndBeanWrapper/registeringCustomPropertyEditorImplementations/usingPropertyEditorRegister/usingPropertyEditorRegister.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/configuringBeanValidationProvider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/validationAndDataBindingAndTypeConversion/springTypeConversion/springTypeConversion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/AOP/aspectjSupport/introductions/IntroductionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/AOP/aspectjSupport/proxyingMechanisms/ProxyingMechanismsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/AnotationConfiguration/UsingValueAnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/AnotationConfiguration/WithGenericQualifiersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/AnotationConfiguration/WithQualifiersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/AnotationConfiguration/usingAutowiredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/additionalCapabilityOfApplicationContext/i18UsingMessageSource/UsingMessageSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/StandardAndCustomEventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/beanDefinitionInheritance/BeanDefinitionInheritanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/classpathScanningAndManagedComponents/definingBeanMetadataWithinComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/containerExtensionPoint/BeanPostProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/dependencies/methodInjectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/useProfile/ProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/environmentAbstraction/beanDefinitionProfiles/usePropertySource/PropertySourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/container/javaBasedContainerConfiguration/UsingImportAnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/validationAndDataBindAndTypeConversion/BeanManipulationAndBeanWrapper/registeringCustomPropertyEditorImplementations/CustomPropertyEditorImplementationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/validationAndDataBindAndTypeConversion/BeanManipulationAndBeanWrapper/settingAndGettingBasicAndNestedProperties/SettingAndGettingBasicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/validationAndDataBindAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/ConfiguringBeanValidationProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/validationAndDataBindAndTypeConversion/springTypeConversion/springTypeConversionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/validationAndDataBindAndTypeConversion/validationUsingValidatorInterface/validationUsingValidatorInterfaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/ISysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/ISysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/alsa/springcore/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/springcore/mapper/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alsa/springcore/BeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alsa/springcore/BeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springLm.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/dto/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/impl/SysUserMapperFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/impl/SysUserMapperFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/ISysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/ISysUserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/springLm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alsa/AOP/aspectjSupport/proxyingMechanisms/ProxyingMechanismsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alsa/AOP/aspectjSupport/proxyingMechanisms/ProxyingMechanismsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/alsa/springcore/BeanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alsa/springcore/BeanTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,6 +64,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -206,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProxyingMechanismsTest.testProxyingMechanisms">
+  <component name="RunManager" selected="JUnit.BeanTest.testMybatisForeachWithList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -219,33 +116,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfiguringBeanValidationProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanTest.getBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springLm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alsa.validationAndDataBindAndTypeConversion.javaBeanValidation.configuringBeanValidationProvider.*" />
+          <option name="PATTERN" value="com.alsa.springcore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alsa.validationAndDataBindAndTypeConversion.javaBeanValidation.configuringBeanValidationProvider" />
-      <option name="MAIN_CLASS_NAME" value="com.alsa.validationAndDataBindAndTypeConversion.javaBeanValidation.configuringBeanValidationProvider.ConfiguringBeanValidationProviderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.alsa.springcore" />
+      <option name="MAIN_CLASS_NAME" value="com.alsa.springcore.BeanTest" />
+      <option name="METHOD_NAME" value="getBean" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfiguringBeanValidationProviderTest.testConfiguringBeanValidationProvider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanTest.testMybatisForeachWithList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springLm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alsa.validationAndDataBindAndTypeConversion.javaBeanValidation.configuringBeanValidationProvider.*" />
+          <option name="PATTERN" value="com.alsa.springcore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alsa.validationAndDataBindAndTypeConversion.javaBeanValidation.configuringBeanValidationProvider" />
-      <option name="MAIN_CLASS_NAME" value="com.alsa.validationAndDataBindAndTypeConversion.javaBeanValidation.configuringBeanValidationProvider.ConfiguringBeanValidationProviderTest" />
-      <option name="METHOD_NAME" value="testConfiguringBeanValidationProvider" />
+      <option name="PACKAGE_NAME" value="com.alsa.springcore" />
+      <option name="MAIN_CLASS_NAME" value="com.alsa.springcore.BeanTest" />
+      <option name="METHOD_NAME" value="testMybatisForeachWithList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -330,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanTest.testMybatisForeachWithList" />
+        <item itemvalue="JUnit.BeanTest.getBean" />
         <item itemvalue="JUnit.ProxyingMechanismsTest.testProxyingMechanisms" />
         <item itemvalue="JUnit.IntroductionTest.testIntroduction" />
         <item itemvalue="JUnit.IntroductionTest.testConfiguringBeanValidationProvider" />
-        <item itemvalue="JUnit.ConfiguringBeanValidationProviderTest.testConfiguringBeanValidationProvider" />
-        <item itemvalue="JUnit.ConfiguringBeanValidationProviderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -360,6 +258,22 @@
       <workItem from="1592637969261" duration="218000" />
       <workItem from="1592808599783" duration="37487000" />
       <workItem from="1593314180091" duration="8369000" />
+      <workItem from="1593486765146" duration="638000" />
+      <workItem from="1593502516655" duration="1256000" />
+      <workItem from="1593690955620" duration="2364000" />
+      <workItem from="1593756593642" duration="1239000" />
+      <workItem from="1593761373945" duration="291000" />
+      <workItem from="1593762031371" duration="1272000" />
+      <workItem from="1594020409255" duration="1442000" />
+      <workItem from="1594022589423" duration="1826000" />
+      <workItem from="1594118579579" duration="610000" />
+      <workItem from="1597739878940" duration="247000" />
+      <workItem from="1598429911113" duration="11500000" />
+      <workItem from="1598528411224" duration="10348000" />
+      <workItem from="1599544544649" duration="694000" />
+      <workItem from="1600824760287" duration="144000" />
+      <workItem from="1604719229704" duration="612000" />
+      <workItem from="1606283245298" duration="2724000" />
     </task>
     <servers />
   </component>
@@ -391,6 +305,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/alsa/validationAndDataBindingAndTypeConversion/javaBeanValidation/configuringBeanValidationProvider/MyConstraintValidator.java</url>
           <line>20</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/alsa/springcore/BeanTest.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/impl/SysUserServiceImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/alsa/springcore/BeanTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

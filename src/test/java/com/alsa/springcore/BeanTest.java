@@ -14,6 +14,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -52,5 +53,34 @@ public class BeanTest {
 			System.out.println(u);
 		}
 
+		List<String> userNameList = userService.getUserName("longming2");
+		for (String userName : userNameList) {
+			System.out.println(userName);
+		}
+
+		String userName = userService.getUserName2("longming2");
+		System.out.println(userName);
+
+		User user = userService.getUser("longming2");
+		System.out.println(user);
+
+		Integer userId = userService.getUserId("longming2");
+		System.out.println(userId);
+
+	}
+
+	@Test
+	public void testMybatisForeachWithList(){
+		ApplicationContext context = new ClassPathXmlApplicationContext("config/spring/applicationContext.xml");
+		ISysUserService userService = (ISysUserService) context.getBean("sysUserService");
+		User user = new User();
+		List<String> phones = new ArrayList<>();
+		phones.add("186");
+		phones.add("13763784776");
+		user.setPhones(phones);
+		List<User> userList = userService.queryUserWithPhone(user);
+		for (User u : userList) {
+			System.out.println(u);
+		}
 	}
 }

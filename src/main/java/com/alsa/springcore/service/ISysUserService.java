@@ -20,4 +20,12 @@ public interface ISysUserService {
      * @return
      */
     List<User> getUsers(String name);
+    User getUser(String name);
+
+    List<String> getUserName(String name);
+    String getUserName2(String name);
+
+    Integer getUserId(String name);
+
+    List<User> queryUserWithPhone(User user);
 }

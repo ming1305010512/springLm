@@ -24,6 +24,44 @@ public class SysUserServiceImpl implements ISysUserService {
         return mapList;
     }
 
+    @Override
+    public User getUser(String name) {
+        User user = new User();
+        user.setUserName(name);
+        User user2 = sysUserMapper.selectUser2(user);
+        return user2;
+    }
+
+    public List<String> getUserName(String name){
+        User user = new User();
+        user.setUserName(name);
+        List<String> userNameList = sysUserMapper.selectUserName(user);
+        return userNameList;
+    }
+
+    @Override
+    public String getUserName2(String name) {
+        User user = new User();
+        user.setUserName(name);
+        String userName = sysUserMapper.selectUserName2(user);
+        return userName;
+    }
+
+    @Override
+    public Integer getUserId(String name) {
+        User user = new User();
+        user.setUserName(name);
+        Integer userId = sysUserMapper.selectUserId(user);
+        return userId;
+    }
+
+    @Override
+    public List<User> queryUserWithPhone(User user) {
+        List<User> users = sysUserMapper.selectUserWithPhone(user);
+        return users;
+    }
+
+
     public SysUserMapper getSysUserMapper() {
         return sysUserMapper;
     }

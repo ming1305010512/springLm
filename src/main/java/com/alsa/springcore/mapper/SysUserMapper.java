@@ -15,4 +15,13 @@ import java.util.List;
 @Repository
 public interface SysUserMapper {
 	List<User> selectUser(User user);
+	User selectUser2(User user);
+
+	List<String> selectUserName(User user);
+
+	String selectUserName2(User user);
+
+	Integer selectUserId(User user);
+
+	List<User> selectUserWithPhone(User user);
 }
