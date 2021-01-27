@@ -20,6 +20,13 @@
         <property name="configLocation" value="classpath:config/mybatis/mybatis-config.xml"/>
         <!--注入数据源-->
         <property name="dataSource" ref="dataSource"/>
+        <property name="plugins">
+            <list>
+                <bean class="com.alsa.mybatis.plugin.PageInterceptor" >
+
+                </bean>
+            </list>
+        </property>
     </bean>
 
     <!--批量扫描Mapper-->

@@ -162,6 +162,13 @@
             <version>1.9.5</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+
 
 
     </dependencies>

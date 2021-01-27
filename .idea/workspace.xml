@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c39678-f703-4ff0-a1d0-4a812f8b2be1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alsa/mybatis/plugin/PageInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/resource/myTemplate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alsa/resource/ResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/ISysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/ISysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/alsa/springcore/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/alsa/springcore/mapper/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alsa/springcore/BeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alsa/springcore/BeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springLm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/dto/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/mapper/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/ISysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/ISysUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alsa/springcore/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/springLm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alsa/AOP/aspectjSupport/proxyingMechanisms/ProxyingMechanismsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alsa/AOP/aspectjSupport/proxyingMechanisms/ProxyingMechanismsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alsa/springcore/BeanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alsa/springcore/BeanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/spring/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +17,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -103,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BeanTest.testMybatisForeachWithList">
+  <component name="RunManager" selected="JUnit.BeanTest.getBean">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -150,51 +154,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntroductionTest.testConfiguringBeanValidationProvider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResourceTest.testResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springLm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alsa.AOP.aspectjSupport.introductions.*" />
+          <option name="PATTERN" value="com.alsa.resource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alsa.AOP.aspectjSupport.introductions" />
-      <option name="MAIN_CLASS_NAME" value="com.alsa.AOP.aspectjSupport.introductions.IntroductionTest" />
-      <option name="METHOD_NAME" value="testConfiguringBeanValidationProvider" />
+      <option name="PACKAGE_NAME" value="com.alsa.resource" />
+      <option name="MAIN_CLASS_NAME" value="com.alsa.resource.ResourceTest" />
+      <option name="METHOD_NAME" value="testResource" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntroductionTest.testIntroduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StandardAndCustomEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springLm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alsa.AOP.aspectjSupport.introductions.*" />
+          <option name="PATTERN" value="com.alsa.container.additionalCapabilityOfApplicationContext.standardAndCustomEvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alsa.AOP.aspectjSupport.introductions" />
-      <option name="MAIN_CLASS_NAME" value="com.alsa.AOP.aspectjSupport.introductions.IntroductionTest" />
-      <option name="METHOD_NAME" value="testIntroduction" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.alsa.container.additionalCapabilityOfApplicationContext.standardAndCustomEvent" />
+      <option name="MAIN_CLASS_NAME" value="com.alsa.container.additionalCapabilityOfApplicationContext.standardAndCustomEvent.StandardAndCustomEventTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyingMechanismsTest.testProxyingMechanisms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StandardAndCustomEventTest.testCustomEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springLm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alsa.AOP.aspectjSupport.proxyingMechanisms.*" />
+          <option name="PATTERN" value="com.alsa.container.additionalCapabilityOfApplicationContext.standardAndCustomEvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alsa.AOP.aspectjSupport.proxyingMechanisms" />
-      <option name="MAIN_CLASS_NAME" value="com.alsa.AOP.aspectjSupport.proxyingMechanisms.ProxyingMechanismsTest" />
-      <option name="METHOD_NAME" value="testProxyingMechanisms" />
+      <option name="PACKAGE_NAME" value="com.alsa.container.additionalCapabilityOfApplicationContext.standardAndCustomEvent" />
+      <option name="MAIN_CLASS_NAME" value="com.alsa.container.additionalCapabilityOfApplicationContext.standardAndCustomEvent.StandardAndCustomEventTest" />
+      <option name="METHOD_NAME" value="testCustomEvent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -228,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeanTest.testMybatisForeachWithList" />
         <item itemvalue="JUnit.BeanTest.getBean" />
-        <item itemvalue="JUnit.ProxyingMechanismsTest.testProxyingMechanisms" />
-        <item itemvalue="JUnit.IntroductionTest.testIntroduction" />
-        <item itemvalue="JUnit.IntroductionTest.testConfiguringBeanValidationProvider" />
+        <item itemvalue="JUnit.ResourceTest.testResource" />
+        <item itemvalue="JUnit.StandardAndCustomEventTest" />
+        <item itemvalue="JUnit.StandardAndCustomEventTest.testCustomEvent" />
+        <item itemvalue="JUnit.BeanTest.testMybatisForeachWithList" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +277,13 @@
       <workItem from="1600824760287" duration="144000" />
       <workItem from="1604719229704" duration="612000" />
       <workItem from="1606283245298" duration="2724000" />
+      <workItem from="1608538925341" duration="2745000" />
+      <workItem from="1609228440512" duration="5125000" />
+      <workItem from="1609288816788" duration="5204000" />
+      <workItem from="1609720774085" duration="755000" />
+      <workItem from="1609903763278" duration="712000" />
+      <workItem from="1609920107632" duration="680000" />
+      <workItem from="1611645650704" duration="4272000" />
     </task>
     <servers />
   </component>
@@ -320,6 +330,51 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/alsa/springcore/BeanTest.java</url>
           <line>55</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/EmailService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/UsingAnnotation/BlackListNotifier3.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/BlackListNotifier.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alsa/container/additionalCapabilityOfApplicationContext/standardAndCustomEvent/UsingAnnotation/BlackListNotifier2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/alsa/resource/ResourceTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alsa/mybatis/plugin/PageInterceptor.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alsa/springcore/service/impl/SysUserServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
